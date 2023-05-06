@@ -12,11 +12,11 @@ Motivation being I prefer this workflow to using `add-selection-above` and `add-
 | pulsar-column-select-mode:select-up   | select up: normal or column depending on mode   |
 | pulsar-column-select-mode:select-down | select down: normal or column depending on mode |
 
-# Keybindings
+# Keybindings[^1]
 
 | Key        | Command                               |
 | ---------- | ------------------------------------- |
 | shift-up   | pulsar-column-select-mode:select-up   |
 | shift-down | pulsar-column-select-mode:select-down |
 
-Note: overrides normal keybindings for `core:select-up` and `core:select-down` in the editor.
+[^1]: these override keybindings for `core:select-up` and `core:select-down` in the editor.
