@@ -1,6 +1,0 @@
-{
-  ".platform-linux .platform-win32 .platform-darwin atom-workspace atom-text-editor:not([mini])": {
-    "shift-up": "pulsar-column-select-mode:select-up",
-    "shift-down": "pulsar-column-select-mode:select-down"
-  }
-}

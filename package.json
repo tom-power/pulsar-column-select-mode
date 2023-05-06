@@ -2,13 +2,8 @@
   "name": "pulsar-column-select-mode",
   "main": "./lib/pulsar-column-select-mode",
   "version": "0.1.0",
-  "description": "Column select mode for pulsar",
-  "keywords": [
-    "pulsar",
-    "column",
-    "select",
-    "mode"
-  ],
+  "description": "Column selection mode for Pulsar.",
+  "keywords": ["pulsar", "column", "select", "mode"],
   "repository": "https://github.com/tom-power/pulsar-column-select-mode",
   "license": "MIT",
   "engines": {
