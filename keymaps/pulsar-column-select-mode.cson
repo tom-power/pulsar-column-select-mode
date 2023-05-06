@@ -1,0 +1,11 @@
+'.platform-win32 atom-text-editor:not([mini])':
+  'shift-up': 'pulsar-column-select-mode:select-up',
+  'shift-down': 'pulsar-column-select-mode:select-down'
+
+'.platform-linux atom-text-editor:not([mini])':
+  'shift-up': 'pulsar-column-select-mode:select-up',
+  'shift-down': 'pulsar-column-select-mode:select-down'
+
+'.platform-darwin atom-text-editor:not([mini])':
+  'shift-up': 'pulsar-column-select-mode:select-up',
+  'shift-down': 'pulsar-column-select-mode:select-down'

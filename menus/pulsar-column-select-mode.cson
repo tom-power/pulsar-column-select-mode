@@ -1,0 +1,13 @@
+'menu': [
+  {
+    'label': 'Packages'
+    'submenu': [
+      'label': 'Column Select Mode'
+      'submenu': [
+        {'label': 'Toggle', 'command': 'pulsar-column-select-mode:toggle'},
+        {'label': 'Select Up', 'command': 'pulsar-column-select-mode:select-up'},
+        {'label': 'Select Down', 'command': 'pulsar-column-select-mode:select-down'},
+      ]
+    ]
+  }
+]
