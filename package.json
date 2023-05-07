@@ -3,12 +3,10 @@
   "main": "./lib/pulsar-column-select-mode",
   "version": "0.1.0",
   "description": "Column selection mode for Pulsar.",
-  "keywords": ["pulsar", "column", "select", "mode"],
   "repository": "https://github.com/tom-power/pulsar-column-select-mode",
   "license": "MIT",
   "engines": {
     "pulsar": ">=1.0.0 <2.0.0"
   },
-  "dependencies": {},
   "configSchema": {}
 }
