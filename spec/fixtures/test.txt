@@ -1,3 +1,4 @@
+a file
+that has
 some text
-in a 
-file
+in it

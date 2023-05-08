@@ -4,6 +4,8 @@ Simple package that adds a column selection mode for [Pulsar](https://pulsar-edi
 
 Motivation being I prefer this workflow to using `add-selection-above` and `add-selection-below`.
 
+![demo](https://github.com/tom-power/pulsar-column-select-mode/blob/main/assets/demo.gif)
+
 # Commands
 
 | Command                               | Description                                     |
@@ -15,10 +17,12 @@ Motivation being I prefer this workflow to using `add-selection-above` and `add-
 
 # Keybindings[^2]
 
-| Key        | Command                               |
-| ---------- | ------------------------------------- |
-| shift-up   | pulsar-column-select-mode:select-up   |
-| shift-down | pulsar-column-select-mode:select-down |
+| Key        | Command                                    |
+| ---------- | ------------------------------------------ |
+| shift-up   | pulsar-column-select-mode:select-up        |
+| shift-down | pulsar-column-select-mode:select-down [^3] |
+
 
 [^1]: keybindings only at the moment.
 [^2]: these override keybindings for `core:select-up` and `core:select-down` in the editor and are more or less needed for the package to work.
+[^3]: I like footnotes

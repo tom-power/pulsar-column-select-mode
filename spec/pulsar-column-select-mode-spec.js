@@ -29,23 +29,23 @@ describe("PulsarColumnSelectMode", function() {
 
     describe("mode off select up", function() {
       return it("should select up without column select", function() {
-        editor.setCursorBufferPosition([2, 0]);
+        editor.setCursorBufferPosition([4, 0]);
         atom.commands.dispatch(editorView, "pulsar-column-select-mode:off");
         atom.commands.dispatch(editorView, "pulsar-column-select-mode:select-up");
-        expect(editor.getSelectedText()).toBe("in a \n")
+        expect(editor.getSelectedText()).toBe("in it\n")
         expect(editor.getCursors().length).toBe(1)
-        expect(editor.getCursorBufferPosition()).toEqual({ row : 1, column : 0 });
+        expect(editor.getCursorBufferPosition()).toEqual({ row : 3, column : 0 });
       });
     });
 
     describe("mode on select up", function() {
       return it("should select up with column select", function() {
-        editor.setCursorBufferPosition([2, 0]);
+        editor.setCursorBufferPosition([4, 0]);
         atom.commands.dispatch(editorView, "pulsar-column-select-mode:on");
         atom.commands.dispatch(editorView, "pulsar-column-select-mode:select-up");
         expect(editor.getSelectedText()).toBe("")
         expect(editor.getCursors().length).toBe(2)
-        expect(editor.getCursorBufferPosition()).toEqual({ row : 1, column : 0 });
+        expect(editor.getCursorBufferPosition()).toEqual({ row : 3, column : 0 });
       });
     });
 
@@ -54,7 +54,7 @@ describe("PulsarColumnSelectMode", function() {
         editor.setCursorBufferPosition([0, 0]);
         atom.commands.dispatch(editorView, "pulsar-column-select-mode:off");
         atom.commands.dispatch(editorView, "pulsar-column-select-mode:select-down");
-        expect(editor.getSelectedText()).toBe("some text\n")
+        expect(editor.getSelectedText()).toBe("a file\n")
         expect(editor.getCursors().length).toBe(1)
         expect(editor.getCursorBufferPosition()).toEqual({ row : 1, column : 0 });
       });
