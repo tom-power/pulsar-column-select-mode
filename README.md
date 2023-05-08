@@ -1,6 +1,6 @@
 # Column selection mode for Pulsar
 
-Simple package that adds a column selection mode for [Pulsar](https://pulsar-edit.dev/), similar to [IntelliJ](https://www.jetbrains.com/help/idea/multicursor.html#column_selection) etc. [^1]
+Simple package that provides a column selection mode for [Pulsar](https://pulsar-edit.dev/), similar to [IntelliJ](https://www.jetbrains.com/help/idea/multicursor.html#column_selection) etc. [^1]
 
 Motivation being I prefer this workflow to using `add-selection-above` and `add-selection-below`.
 
