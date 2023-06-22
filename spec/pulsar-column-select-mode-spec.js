@@ -1,14 +1,4 @@
-const PulsarColumnSelectMode = require('../lib/pulsar-column-select-mode');
-
-const PAGE_SIZE = 50;
-
-// Use the command `window:run-package-specs` (cmd-alt-ctrl-p) to run specs.
-//
-// To run a specific `it` or `describe` block add an `f` to the front (e.g. `fit`
-// or `fdescribe`). Remove the `f` to unfocus the block.
-
 describe("PulsarColumnSelectMode", function() {
-  const activationPromise = null;
   let editor = null;
   let editorView = null;
 

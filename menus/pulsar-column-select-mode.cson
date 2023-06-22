@@ -4,8 +4,8 @@
     'submenu': [
       'label': 'Column Select Mode'
       'submenu': [
-        {'label': 'Toggle', 'command': 'pulsar-column-select-mode:on'},
-        {'label': 'Toggle', 'command': 'pulsar-column-select-mode:off'}
+        {'label': 'On', 'command': 'pulsar-column-select-mode:on'},
+        {'label': 'Off', 'command': 'pulsar-column-select-mode:off'}
       ]
     ]
   }
