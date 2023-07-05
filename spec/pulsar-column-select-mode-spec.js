@@ -1,3 +1,5 @@
+var os = require('os')
+
 describe("PulsarColumnSelectMode", function() {
   let editor = null;
   let editorView = null;
@@ -22,7 +24,7 @@ describe("PulsarColumnSelectMode", function() {
         editor.setCursorBufferPosition([4, 0]);
         atom.commands.dispatch(editorView, "pulsar-column-select-mode:off");
         atom.commands.dispatch(editorView, "pulsar-column-select-mode:select-up");
-        expect(editor.getSelectedText()).toBe("in it\n")
+        expect(editor.getSelectedText()).toBe("in it" + os.EOL);
         expect(editor.getCursors().length).toBe(1)
         expect(editor.getCursorBufferPosition()).toEqual({ row : 3, column : 0 });
       });
@@ -44,7 +46,7 @@ describe("PulsarColumnSelectMode", function() {
         editor.setCursorBufferPosition([0, 0]);
         atom.commands.dispatch(editorView, "pulsar-column-select-mode:off");
         atom.commands.dispatch(editorView, "pulsar-column-select-mode:select-down");
-        expect(editor.getSelectedText()).toBe("a file\n")
+        expect(editor.getSelectedText()).toBe("a file" + os.EOL);
         expect(editor.getCursors().length).toBe(1)
         expect(editor.getCursorBufferPosition()).toEqual({ row : 1, column : 0 });
       });
