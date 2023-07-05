@@ -1,10 +1,12 @@
 # Column selection mode for Pulsar
 
+![build](https://img.shields.io/github/actions/workflow/status/tom-power/pulsar-column-select-mode/main.yml?style=flat-square&logo=github&label=CI%20status)
+
 Simple package that provides a column selection mode for [Pulsar](https://pulsar-edit.dev/), similar to [IntelliJ](https://www.jetbrains.com/help/idea/multicursor.html#column_selection) etc. [^1]
 
 Motivation being I prefer this workflow to using `add-selection-above` and `add-selection-below`.
 
-![demo](https://github.com/tom-power/pulsar-column-select-mode/blob/main/assets/demo.gif)
+![demo](https://cdn.statically.io/gh/tom-power/pulsar-column-select-mode/main/assets/demo.gif)
 
 # Commands
 
